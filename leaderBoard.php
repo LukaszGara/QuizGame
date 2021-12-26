@@ -1,11 +1,11 @@
 <?php
 
 require_once 'databaseConn.php';
-
+    //get data from database
     $getscores = $pdo->prepare("SELECT name, points, difficulty, category FROM scores JOIN users ON scores.user_id = users.user_id ORDER BY points DESC LIMIT 20");
     $getscores->execute();
     $scores = $getscores->fetchAll();
-    
+    // display data
     $i = 1;
     foreach ($scores as $score){
         echo "<tr>";

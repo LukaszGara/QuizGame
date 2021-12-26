@@ -91,7 +91,7 @@
             </main>
             <br><br>
             <a href="#" class="arrow" id="arrow"> Next question <i class="arrow right"></i></a>
-            <a href="/quizGame" id="again"> Try again! <i class="arrow right"></i></a>
+            <a href="http://lukasz.epizy.com/" id="again"> Try again! <i class="arrow right"></i></a>
         </div>
         <script src="main.js"></script>
 
